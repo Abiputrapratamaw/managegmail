@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "avola-gmail-manager",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-08-18",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "avola-gmail-manager",
+      "database_id": "482733a5-8316-4b9d-9c5a-0cf323908e53"
+    }
+  ]
+}
